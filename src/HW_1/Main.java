@@ -17,7 +17,7 @@ public class Main {
         BoxGen<? extends Number> BoxApple = new BoxGen<>(10, "apple");
         BoxGen<? extends Number> BoxOrange = new BoxGen<>(10, "orange");
 
-        Apple[] apples = {
+       /* Apple[] apples = {
                 new Apple(1.0f),
                 new Apple(1.0f),
                 new Apple(1.0f),
@@ -32,9 +32,9 @@ public class Main {
         };
 
         getApplesInbox(apples);
-        getOrangesInbox(oranges);
+        getOrangesInbox(oranges);*/
 
-// создание коллекции
+// создание масива (коллекции)
         int countElements = 5;
         LinkedList<String> changeableList = new LinkedList();
         for (int i = 0; i < countElements; i++) {
@@ -79,6 +79,7 @@ public class Main {
         LinkedList orangesInBox = new LinkedList();
         for (Orange i : oranges) {
             orangesInBox.add(i);
+
         }
 
     }
